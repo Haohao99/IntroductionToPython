@@ -24,7 +24,7 @@ for k in range(10):
     radius = radius-13
 window.close_on_mouse_click()
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
