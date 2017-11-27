@@ -11,7 +11,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 import rosegraphics as rg
 window = rg.TurtleWindow()
 Bai_turtle = rg.SimpleTurtle('turtle')
-Bai_turtle.pen = rg.Pen('red',1)
+Bai_turtle.pen = rg.Pen('red',2)
 Bai_turtle.speed = 10
 radius = 50
 for k in range(10):
