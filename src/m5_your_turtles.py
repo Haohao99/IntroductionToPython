@@ -10,17 +10,17 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 import rosegraphics as rg
 window = rg.TurtleWindow()
-Bai_turtle = rg.SimpleTurtle('turtle')
-Bai_turtle.pen = rg.Pen('red',2)
-Bai_turtle.speed = 10
-radius = 50
-for k in range(10):
-    Bai_turtle.draw_circle(radius)
-    Bai_turtle.pen_up()
-    Bai_turtle.right(30)
-    Bai_turtle.forward(5)
-    Bai_turtle.left(30)
-    Bai_turtle.pen_down()
+turtle = rg.SimpleTurtle('turtle')
+turtle.pen = rg.Pen('red',1)
+turtle.speed = 10
+radius = 200
+for k in range(13):
+    turtle.draw_circle(radius)
+    turtle.pen_up()
+    turtle.right(45)
+    turtle.forward(10)
+    turtle.left(45)
+    turtle.pen_down()
     radius = radius-13
 window.close_on_mouse_click()
 ########################################################################
