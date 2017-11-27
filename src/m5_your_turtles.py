@@ -13,7 +13,7 @@ window = rg.TurtleWindow()
 turtle = rg.SimpleTurtle('turtle')
 turtle.pen = rg.Pen('red',1)
 turtle.speed = 10
-radius = 200
+radius = 220
 for k in range(13):
     turtle.draw_circle(radius)
     turtle.pen_up()
